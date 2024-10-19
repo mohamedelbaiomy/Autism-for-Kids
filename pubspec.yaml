@@ -1,0 +1,79 @@
+name: autism_for_kids
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+  flutter_riverpod: ^1.0.4
+  uuid: ^3.0.6
+  flutter_swipe_detector: ^2.0.0
+  hive: ^2.1.1
+  hive_flutter: ^1.1.0
+  json_annotation: ^4.5.0
+  provider: ^6.1.2
+  hexcolor: ^3.0.1
+  get: ^4.6.6
+  english_words:
+  flutter_easyloading:
+  video_player: ^2.9.2
+  flick_video_player: ^0.9.0
+
+dev_dependencies:
+  build_runner: ^2.1.11
+  json_serializable: ^6.2.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+# flutter pub run flutter_launcher_icons
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.jpeg"
+  min_sdk_android: 21
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+      - assets/
+      - assets/options/
+      - assets/learning_options/
+      - assets/story_options/
+      - assets/game_options/
+      - assets/story_options/the_lion_and_the_mouse/
+      - assets/story_options/the_magic_pot/
+      - assets/story_options/the_ugly_duckling/
+      - assets/story_options/the_well_and_the_baker/
+      - assets/game_options/puzzle/
+      - assets/learning_options/quran_mp3/
+      - assets/learning_options/english/
+      - assets/learning_options/arabic/
+      - assets/learning_options/math/
+      - assets/learning_options/science/
+  #   - images/a_dot_ham.jpeg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+
