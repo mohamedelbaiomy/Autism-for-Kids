@@ -15,6 +15,7 @@ dependencies:
   flutter_riverpod: ^1.0.4
   uuid: ^3.0.6
   flutter_swipe_detector: ^2.0.0
+  audioplayers: ^6.1.0
   hive: ^2.1.1
   hive_flutter: ^1.1.0
   json_annotation: ^4.5.0
@@ -50,7 +51,6 @@ flutter:
   assets:
       - assets/
       - assets/options/
-      - assets/سور القرآن/
       - assets/learning_options/
       - assets/story_options/
       - assets/game_options/
