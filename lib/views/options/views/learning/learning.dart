@@ -1,7 +1,7 @@
 import 'package:autism_for_kids/views/options/views/learning/arabic.dart';
 import 'package:autism_for_kids/views/options/views/learning/english.dart';
 import 'package:autism_for_kids/views/options/views/learning/math.dart';
-import 'package:autism_for_kids/views/options/views/learning/quran.dart';
+import 'package:autism_for_kids/views/options/views/learning/quran/quran.dart';
 import 'package:autism_for_kids/views/options/views/learning/science.dart';
 import 'package:autism_for_kids/widgets/back_button.dart';
 import 'package:flutter/material.dart';

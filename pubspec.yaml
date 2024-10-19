@@ -50,6 +50,7 @@ flutter:
   assets:
       - assets/
       - assets/options/
+      - assets/سور القرآن/
       - assets/learning_options/
       - assets/story_options/
       - assets/game_options/

@@ -35,23 +35,28 @@ List<Story> getStories() {
       parts: [
         StoryPart(
           partNumber: 'Part 1',
-          partVideo: 'assets/story_options/the_ugly_duckling/Part 1.mp4',
+          partVideo:
+              'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/story_options/the_ugly_duckling/Part%201.mp4',
         ),
         StoryPart(
           partNumber: 'Part 2',
-          partVideo: 'assets/story_options/the_ugly_duckling/Part 2.mp4',
+          partVideo:
+              'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/story_options/the_ugly_duckling/Part%202.mp4',
         ),
         StoryPart(
           partNumber: 'Part 3',
-          partVideo: 'assets/story_options/the_ugly_duckling/Part 3.mp4',
+          partVideo:
+              'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/story_options/the_ugly_duckling/Part%203.mp4',
         ),
         StoryPart(
           partNumber: 'Part 4',
-          partVideo: 'assets/story_options/the_ugly_duckling/Part 4.mp4',
+          partVideo:
+              'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/story_options/the_ugly_duckling/Part%204.mp4',
         ),
         StoryPart(
           partNumber: 'Part 5',
-          partVideo: 'assets/story_options/the_ugly_duckling/Part 5.mp4',
+          partVideo:
+              'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/story_options/the_ugly_duckling/Part%205.mp4',
         ),
       ],
     ),
@@ -66,19 +71,23 @@ List<Story> getStories() {
       parts: [
         StoryPart(
           partNumber: 'Part 1',
-          partVideo: 'assets/story_options/the_magic_pot/Part 1.mp4',
+          partVideo:
+              'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/story_options/the_magic_pot/Part%201.mp4',
         ),
         StoryPart(
           partNumber: 'Part 2',
-          partVideo: 'assets/story_options/the_magic_pot/Part 2.mp4',
+          partVideo:
+              'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/story_options/the_magic_pot/Part%202.mp4',
         ),
         StoryPart(
           partNumber: 'Part 3',
-          partVideo: 'assets/story_options/the_magic_pot/Part 3.mp4',
+          partVideo:
+              'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/story_options/the_magic_pot/Part%203.mp4',
         ),
         StoryPart(
           partNumber: 'Part 4',
-          partVideo: 'assets/story_options/the_magic_pot/Part 4.mp4',
+          partVideo:
+              'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/story_options/the_magic_pot/Part%204.mp4',
         ),
       ],
     ),
@@ -94,7 +103,7 @@ List<Story> getStories() {
         StoryPart(
           partNumber: 'The Story',
           partVideo:
-              'assets/story_options/the_well_and_the_baker/The Well & The Baker.mp4',
+              'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/story_options/the_well_and_the_baker/The%20Well%20&%20The%20Baker.mp4',
         ),
       ],
     ),
@@ -108,19 +117,23 @@ List<Story> getStories() {
       parts: [
         StoryPart(
           partNumber: 'Part 1',
-          partVideo: 'assets/story_options/the_lion_and_the_mouse/Part 1.mp4',
+          partVideo:
+              'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/story_options/the_lion_and_the_mouse/Part%201.mp4',
         ),
         StoryPart(
           partNumber: 'Part 2',
-          partVideo: 'assets/story_options/the_lion_and_the_mouse/Part 2.mp4',
+          partVideo:
+              'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/story_options/the_lion_and_the_mouse/Part%202.mp4',
         ),
         StoryPart(
           partNumber: 'Part 3',
-          partVideo: 'assets/story_options/the_lion_and_the_mouse/Part 3.mp4',
+          partVideo:
+              'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/story_options/the_lion_and_the_mouse/Part%203.mp4',
         ),
         StoryPart(
           partNumber: 'Part 4',
-          partVideo: 'assets/story_options/the_lion_and_the_mouse/Part 4.mp4',
+          partVideo:
+              'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/story_options/the_lion_and_the_mouse/Part%204.mp4',
         ),
       ],
     ),
