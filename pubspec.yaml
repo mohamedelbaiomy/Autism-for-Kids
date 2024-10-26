@@ -54,12 +54,35 @@ flutter:
       - assets/learning_options/
       - assets/story_options/
       - assets/game_options/
+      - assets/learning_options/arabic/Animals/
+      - assets/learning_options/arabic/colors/
+      - assets/learning_options/arabic/colors/Sounds/
+      - assets/learning_options/arabic/fruit/
+      - assets/learning_options/arabic/fruit/sounds/
+      - assets/learning_options/arabic/Vegetables/
+      - assets/learning_options/arabic/Vegetables/sounds/
+      - assets/learning_options/arabic/Animals/Sounds/
+      - assets/learning_options/english/Animals/
+      - assets/learning_options/english/Animals/Sounds/
+      - assets/learning_options/english/Colors/
+      - assets/learning_options/english/Colors/Sounds/
+      - assets/learning_options/english/fruit/
+      - assets/learning_options/english/fruit/sounds/
+      - assets/learning_options/english/Vegetables/
+      - assets/learning_options/english/Vegetables/Sounds_/
+      - assets/learning_options/math/الأرقام/
+      - assets/learning_options/math/الأرقام/Sounds/
+      - assets/learning_options/math/الأشكال/
+      - assets/learning_options/math/الأشكال/Sounds/
+      - assets/learning_options/science/صور أخرى/
+      - assets/learning_options/science/صور أخرى/Sounds/
+      - assets/learning_options/science/فصول السنة/
+      - assets/learning_options/science/فصول السنة/Sounds/
       - assets/story_options/the_lion_and_the_mouse/
       - assets/story_options/the_magic_pot/
       - assets/story_options/the_ugly_duckling/
       - assets/story_options/the_well_and_the_baker/
       - assets/game_options/puzzle/
-      - assets/learning_options/quran_mp3/
       - assets/learning_options/english/
       - assets/learning_options/arabic/
       - assets/learning_options/math/
