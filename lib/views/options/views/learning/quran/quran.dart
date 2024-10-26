@@ -197,56 +197,54 @@ class QuranScreen extends StatelessWidget {
         'numberOfVerses': '26',
         'm': '27',
       },
-      {
-        'name': 'سورة الاعلى',
-        'sound':
-            'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/%D8%B3%D9%88%D8%B1%20%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86/%D8%B3%D9%88%D8%B1%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B9%D9%84%D9%89.mp3',
-        'numberOfVerses': '19',
-        'm': '28',
-      },
-      {
-        'name': 'سورة الطارق',
-        'sound':
-            'https://github.com/mohamedelbaiomy/Autism-for-Kids/raw/refs/heads/master/assets/%D8%B3%D9%88%D8%B1%20%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86/%D8%B3%D9%88%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B7%D8%A7%D8%B1%D9%82.mp3',
-        'numberOfVerses': '17',
-        'm': '29',
-      },
-      {
-        'name': 'سورة قريش',
-        'sound': '',
-        'numberOfVerses': '4',
-        'm': '30',
-      },
-      {
-        'name': 'سورة قريش',
-        'sound': '',
-        'numberOfVerses': '4',
-        'm': '31',
-      },
-      {
-        'name': 'سورة قريش',
-        'sound': '',
-        'numberOfVerses': '4',
-        'm': "32",
-      },
-      {
-        'name': 'سورة قريش',
-        'sound': '',
-        'numberOfVerses': '4',
-        'm': '33',
-      },
-      {
-        'name': 'سورة قريش',
-        'sound': '',
-        'numberOfVerses': '4',
-        'm': '34',
-      },
-      {
-        'name': 'سورة قريش',
-        'sound': '',
-        'numberOfVerses': '4',
-        'm': '35',
-      },
+      // {
+      //   'name': 'سورة الاعلى',
+      //   'sound': '',
+      //   'numberOfVerses': '19',
+      //   'm': '28',
+      // },
+      // {
+      //   'name': 'سورة الطارق',
+      //   'sound': '',
+      //   'numberOfVerses': '17',
+      //   'm': '29',
+      // },
+      // {
+      //   'name': 'سورة قريش',
+      //   'sound': '',
+      //   'numberOfVerses': '4',
+      //   'm': '30',
+      // },
+      // {
+      //   'name': 'سورة قريش',
+      //   'sound': '',
+      //   'numberOfVerses': '4',
+      //   'm': '31',
+      // },
+      // {
+      //   'name': 'سورة قريش',
+      //   'sound': '',
+      //   'numberOfVerses': '4',
+      //   'm': "32",
+      // },
+      // {
+      //   'name': 'سورة قريش',
+      //   'sound': '',
+      //   'numberOfVerses': '4',
+      //   'm': '33',
+      // },
+      // {
+      //   'name': 'سورة قريش',
+      //   'sound': '',
+      //   'numberOfVerses': '4',
+      //   'm': '34',
+      // },
+      // {
+      //   'name': 'سورة قريش',
+      //   'sound': '',
+      //   'numberOfVerses': '4',
+      //   'm': '35',
+      // },
     ];
     return Scaffold(
       appBar: AppBar(
@@ -274,13 +272,14 @@ class QuranScreen extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: 600,
+            height: 650,
             width: double.infinity,
             child: ListView.builder(
               itemCount: items.length,
               itemBuilder: (context, index) {
                 return Padding(
-                  padding: const EdgeInsets.only(left: 50, right: 50),
+                  padding:
+                      const EdgeInsets.only(left: 50, right: 50, bottom: 20),
                   child: Row(
                     children: [
                       Text(items[index]['numberOfVerses']),
