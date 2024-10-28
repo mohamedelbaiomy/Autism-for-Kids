@@ -19,6 +19,28 @@ class GamesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     List<Map<String, dynamic>> items = [
       {
+        'label': 'Guess the Number',
+        'image': 'assets/game_options/Guess the number.jpeg',
+        'screen': const RandomAppScreen(),
+      },
+      {
+        'label': 'Speed Game',
+        'image': 'assets/options/Games.jpg',
+        'screen': const SpeedGame(),
+      },
+      {
+        'label': '2048 Game',
+        'image': 'assets/options/Games.jpg',
+        'screen': const ProviderScope(
+          child: Game(),
+        ),
+      },
+      {
+        'label': 'Coloring',
+        'image': 'assets/game_options/Coloring.jpeg',
+        'screen': const Coloring(),
+      },
+      {
         'label': 'Animal Ninja Game',
         'image': 'assets/game_options/Ninja.jpeg',
         'screen': const Ninja(),
@@ -32,28 +54,6 @@ class GamesScreen extends StatelessWidget {
         'label': 'Piano',
         'image': 'assets/game_options/Piano.jpeg',
         'screen': const Piano(),
-      },
-      {
-        'label': 'Guess the Number',
-        'image': 'assets/game_options/Guess the number.jpeg',
-        'screen': const RandomAppScreen(),
-      },
-      {
-        'label': 'Speed Game',
-        'image': 'assets/options/Games.jpg',
-        'screen': const SpeedGame(),
-      },
-      {
-        'label': 'Coloring',
-        'image': 'assets/game_options/Coloring.jpeg',
-        'screen': const Coloring(),
-      },
-      {
-        'label': '2048 Game',
-        'image': 'assets/options/Games.jpg',
-        'screen': const ProviderScope(
-          child: Game(),
-        ),
       },
     ];
     return Scaffold(
